@@ -1,37 +1,28 @@
 body
 {
-    background-color: lightyellow;
-}
-
-h1
-{
-    color: white;
     background-color: lightcoral;
 }
 
-#show_sketches
+#score
 {
-    float: right;
+    font-size: 20;
+    margin-left: -1030px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-p
+#timer
 {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 20;
+    float:right;
+    margin-right: 70px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-canvas
+#sketch_to_be_drawn
 {
-    border: 5px solid aliceblue;
-    border-radius: 15px;
-    animation-name: example;
-    animation-duration: 5s;
-    margin-top: 50px;
-    animation-iteration-count: infinite;
-}
-
-@keyframes example
-{
-    from{box-shadow: 1px 1px 50px lightpink;}
-    to{box-shadow: 1px 1px 50px gray;}
+    color: deeppink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25;
 }
